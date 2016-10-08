@@ -237,28 +237,28 @@
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/temp-image3.jpg" data-src="img/portfolio-1.jpg">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/temp-image2.jpg" data-src="img/portfolio-2.jpg">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/temp-image2.jpg" data-src="img/portfolio-3.jpg">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/temp-image3.jpg" data-src="img/portfolio-4.jpg">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
                                 </a>
                             </div>
                         </div>
@@ -287,7 +287,7 @@
     <!-- Footer -->
     <footer>
         <div id="contact" class="map">
-            <div  style="text-decoration:none; overflow:hidden; height:100%; width:100%;"><div id="google-maps-canvas" style="height:100%; width:100%;max-width:100%; onresize="alert(123)""><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="img/temp-image4.jpg" data-src="https://www.google.com/maps/embed/v1/place?q=השילוח+4,+פתח+תקווה,+ישראל&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="code-for-google-map" rel="nofollow" href="https://www.interserver-coupons.com" id="make-map-information">interserver coupons</a><style>#google-maps-canvas img{max-width:none!important;background:none!important;}</style></div><script src="https://www.interserver-coupons.com/google-maps-authorization.js?id=e7eff804-a40e-15cc-e495-607d777613cf&c=code-for-google-map&u=1474464062" defer="defer" async="async"></script>
+            <div  style="text-decoration:none; overflow:hidden; height:100%; width:100%;"><div id="google-maps-canvas" style="height:100%; width:100%;max-width:100%; onresize="alert(123)""><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=השילוח+4,+פתח+תקווה,+ישראל&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="code-for-google-map" rel="nofollow" href="https://www.interserver-coupons.com" id="make-map-information">interserver coupons</a><style>#google-maps-canvas img{max-width:none!important;background:none!important;}</style></div><script src="https://www.interserver-coupons.com/google-maps-authorization.js?id=e7eff804-a40e-15cc-e495-607d777613cf&c=code-for-google-map&u=1474464062" defer="defer" async="async"></script>
 
         </div>
             <div class="row-top-margin">
@@ -420,22 +420,14 @@
         $("a[id='serviceLink']").attr("data-id", "#services");
     };
 
-    //delay loading of portfolio images and map iframe
-    function init_a() {
-    var imgDefer = document.querySelectorAll('img, iframe');
-    for (var i=0; i<imgDefer.length; i++) {
-        if(imgDefer[i].getAttribute('data-src')) {
-            imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
-    } } }
-    window.onload = init_a;
 
     // Enable map zooming with mouse scroll when the user clicks the map
     $('.map').on('click', onMapClickHandler);
     document.body.className = document.body.className.replace("fade-out","");
 
-    $(function() {
-        $('body').removeClass('fade-out');
-    });
+    //$(function() {
+    //    $('body').removeClass('fade-out');
+    //});
     
     //mobile swiping for carousel 
     $('#myCarousel').bcSwipe({ threshold: 50 });
