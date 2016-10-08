@@ -11,7 +11,7 @@ body {
     width: 100%;
     height: 100%;
     opacity: 1;
-    transition: opacity 1s linear 1s;
+    transition: opacity 1s linear 2s;
 }
 
 body {
@@ -181,11 +181,7 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    transition: background 1s linear 2s;
-}
-body.fade-out .header{
-    background: rgba(160,160,180,0.2) url('../img/temp-image-main.jpg')  no-repeat center center scroll;
-    transition: none;
+    transition: background 1s linear 1s;
 }
 
 /* About */
@@ -217,7 +213,7 @@ body.fade-out .header{
     background-size: cover;
     -o-background-size: cover;
     opacity: 1;
-    transition: opacity 2s linear 2s;
+    transition: opacity 3s linear 2s;
 }
 
 body.fade-out .callout{
