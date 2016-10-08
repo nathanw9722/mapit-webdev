@@ -181,7 +181,7 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    transition: background 1s linear 1s;
+    transition: background 1s linear 2s;
 }
 body.fade-out .header{
     background: rgba(160,160,180,0.2) url('../img/temp-image-main.jpg')  no-repeat center center scroll;
