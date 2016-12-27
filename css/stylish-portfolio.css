@@ -22,7 +22,9 @@ body.fade-out {
     opacity: 0;
     transition: none;
 }
-
+#slogan{
+    font-weight: 600;
+}
 .text-vertical-center {
     display: table-cell;
     text-align: center;
